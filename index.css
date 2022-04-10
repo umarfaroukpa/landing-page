@@ -126,3 +126,66 @@ div.gallary2 img {
     }
 
 }
+
+.blank {
+    height: 450px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: whitesmoke; 
+    background-image: url(BKG6.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+
+.blanket {
+    padding: 100px;
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px 8px;
+    border: 3px solid #3882f6;
+    margin: 20px;
+}
+
+.third {
+    height: 400px;
+    background: #e5e7eb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px black;
+}
+
+.fourth {
+    border: burlywood;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 12px 12px;
+    color: #1f2937;
+    width: 700px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    color: black;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-left: -50px;
+}
