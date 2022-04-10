@@ -20,7 +20,7 @@ body {
 
 
 .nav, a:hover{
-    color: #3882f6;
+    color: white;
     font-weight: bold;
 }
 
@@ -189,3 +189,51 @@ div.gallary2 img {
     margin-top: 100px;
     margin-left: -50px;
 }
+
+.action {
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: linear-gradient(#c7a575,#d5d5d5,#36322c,#ebf3eb);   
+    
+}
+
+.form {
+    height: 150px;
+    width: 1000px;
+    background: #3882f6;
+    border: none;
+    border-radius: 7px 7px;
+    color: white;  
+    
+}
+
+.button {
+    border: solid 2px white;
+    margin-left: 580px;
+    margin-top: -30px;
+
+}
+
+.sign {
+    padding-left: 120px;
+    padding-top: 10px;
+    
+}
+
+.time {
+    font-weight: bolder;
+    padding-top: 55px;
+    padding-left: 120px;
+}
+
+.footer {
+    height: 200px;
+    background: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
